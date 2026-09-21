@@ -1,0 +1,4 @@
+pyrofork==2.3.59
+TgCrypto
+motor
+dnspython
