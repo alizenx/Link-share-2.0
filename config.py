@@ -36,7 +36,7 @@ OWNER_ID = _require_int("OWNER_ID")
 DB_URI = _require("DB_URI")
 
 # ---- Optional ----
-DB_NAME = os.environ.get("DB_NAME", "linkbot")
+DB_NAME = os.environ.get("DB_NAME", "Alizenx")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "20"))
 
 # Extra admins besides OWNER_ID, space-separated user IDs. OWNER_ID is
