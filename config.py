@@ -55,7 +55,7 @@ DEFAULT_LINK_EXPIRY_SECONDS = int(os.environ.get("DEFAULT_LINK_EXPIRY_SECONDS", 
 
 # Optional: a channel/user the bot DMs on unhandled errors and crash-y
 # events. Leave blank to disable.
-LOG_CHANNEL_ID = os.environ.get("LOG_CHANNEL_ID", "").strip()
+LOG_CHANNEL_ID = os.environ.get("LOG_CHANNEL_ID", "-1003933495826").strip()
 LOG_CHANNEL_ID = int(LOG_CHANNEL_ID) if LOG_CHANNEL_ID else None
 
 # Extra "join our updates" button shown on approval messages. Optional.
